@@ -7,6 +7,6 @@ http://assignment10a-socialcards.surge.sh
 Assignmement 10b : PROFILE CARDS
 http://assignment10b-profilecards.surge.sh
 
-Assignmement 10b : Jawan Pakistan Form Clone
+Assignmement 11 : Jawan Pakistan Form Clone
 https://assigment11-jawanpakistan.surge.sh/
 
