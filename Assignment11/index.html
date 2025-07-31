@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jawan Pakistan</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="logo"><img src="./logo.png" alt=""></div>
+    <nav class="nav">
+      <a href="#">Download PDF</a>
+      <a href="#"><b>Registration </b></a>
+    </nav>
+  </header>
+
+  <main class="form-section">
+    <form class="form-box">
+      <h2>Registration Form</h2>
+
+      <!-- First Row -->
+      <div class="form-row">
+        <div class="form-group">
+          <label>Institute<span>*</span></label>
+          <select required>
+            <option>Select Option</option>
+            <option>Hussainabad Campus (Adamjee)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Course<span>*</span></label>
+          <select required>
+            <option>Select Option</option>
+            <option>Web & Mobile App Dev Course</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Your Favourite Time?<span>*</span></label>
+          <select required>
+            <option>Select Timing</option>
+            <option>Module A : Every Saturday 2pm to 6pm</option>
+            <option>Module B : Every Saturday 10am to 2pm</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Second Row -->
+      <div class="form-row">
+        <div class="form-group">
+          <label>Full Name<span>*</span></label>
+          <input type="text" required>
+        </div>
+        <div class="form-group">
+          <label>Parents / Guardian Name<span>*</span></label>
+          <input type="text" required>
+        </div>
+        <div class="form-group">
+          <label>Email (Write email carefully)<span>*</span></label>
+          <input type="email" placeholder="abc123@gmail.com" required>
+        </div>
+      </div>
+
+      <!-- Third Row -->
+      <div class="form-row">
+        <div class="form-group">
+          <label>Contact Number<span>*</span></label>
+          <input type="text" placeholder="03XXXXXXXXX" required>
+        </div>
+        <div class="form-group">
+          <label>City Name<span>*</span></label>
+          <input type="text" required>
+        </div>
+        <div class="form-group">
+          <label>CNIC / BForm<span>*</span></label>
+          <input type="text" placeholder="4XXXXXXXXXXXXXX" required>
+        </div>
+      </div>
+
+      <!-- Fourth Row -->
+      <div class="form-row">
+        <div class="form-group">
+          <label>Gender<span>*</span></label>
+          <select required>
+            <option>Select Gender</option>
+            <option>Male</option>
+            <option>Female  </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Date of Birth<span>*</span></label>
+          <input type="date" required>
+        </div>
+        <div class="form-group">
+          <label>Last Qualification<span>*</span></label>
+          <select required>
+            <option>Select Option</option>
+            <option>Under Matric</option>
+            <option>Matric / O-Level</option>
+            <option>Intermediate / A-Level</option>
+            <option>Graduate</option>
+            <option>Masters</option>
+            <option>PHD</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Address -->
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label>Permanent Address<span>*</span></label>
+          <input type="text" required>
+        </div>
+      </div>
+
+      <!-- File Upload -->
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label>Passport Size Profile Image (Face Front and Decent picture)</label>
+          <input type="file" required>
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="submit-row">
+        <button type="submit">Submit Form</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
